@@ -1,5 +1,5 @@
 
-body{
+body {
     background: white;
     margin:0;
 }
@@ -27,20 +27,20 @@ a:link {
 }
 
 .left-header,
-.right-header{
+.right-header {
     display: flex;
     align-items: center;
     gap: 16px;
     padding: 25px;
 }
 
-.left-header{
+.left-header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 45px;
     margin-left: 200px;
 }
 
-.right-header{
+.right-header {
     margin-right: 200px;
 }
 
@@ -56,7 +56,7 @@ ul {
 
 /* Section-One */
 
-.section-one{
+.section-one {
     background: #1f2937;
     margin-top: -20px;
     padding: 50px;
@@ -65,7 +65,7 @@ ul {
     justify-content: space-between;
 }
 
-.section-one-left{
+.section-one-left {
     display: flex 1, 1, auto;
     flex-direction: column;
     gap: 20px;
@@ -74,7 +74,7 @@ ul {
     max-width: 390px;
 }
 
-.section-one-right{
+.section-one-right {
     margin-right: 170px;
 }
 
@@ -85,7 +85,7 @@ ul {
     font-weight: bold;
 }
 
-.sub-text{
+.sub-text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: white;
@@ -104,7 +104,7 @@ ul {
 
 /* Section Two */
 
-.section-two-title{
+.section-two-title {
     color: black;
     font-size: 35px;
     font-weight: bold;
@@ -113,18 +113,18 @@ ul {
     margin: 40px;
 }
 
-.section-two{
+.section-two {
     display: flex;
     gap: 60px;
     justify-content: center;
 }
 
 #round {
-    border-radius: 25px;
-    border: 5px solid #1f2937;
+    border-radius: 5px;
+    border: 8px solid #1f2937;
 }
 
-.text{
+.text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: black;
@@ -134,7 +134,7 @@ ul {
 
 /* Section 3 */
 
-.section-three{
+.section-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +144,7 @@ ul {
     gap: 0;
 }
 
-#quote{
+#quote {
     display: flex;
     align-items: center;
     color:black;
@@ -154,7 +154,7 @@ ul {
     font-style: italic;
 }
 
-#quote-person{
+#quote-person {
     display: flex;
     margin-left: 1400px;
     font-size: 30px;
@@ -163,12 +163,12 @@ ul {
 
 /* Section 4 */
 
-.section-four{
+.section-four {
     margin-top: 80px;
     margin-bottom: 100px;
 }
 
-.banner{
+.banner {
     color:white;
     background: #1f2937;
     display: flex;
@@ -181,24 +181,25 @@ ul {
 }
 
 .banner-right,
-.banner-left{
+.banner-left {
     display: flex;
     align-items: center;
     gap: 16px;
     padding: 25px;
 }
 
-#banner-title{
+#banner-title {
     font-size: 25px;
-    margin-top: 10px;
+    font-weight: bold;
+    margin-top: 20px;
     margin-bottom: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
-#banner-sub-text{
+#banner-sub-text {
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -212,3 +213,22 @@ ul {
     border-radius: 8px;
     font-size: 15px;
 }
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    
+}
+
+#creator {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
