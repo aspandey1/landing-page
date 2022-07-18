@@ -119,11 +119,16 @@ ul {
     justify-content: center;
 }
 
+#round {
+    border-radius: 25px;
+    border: 5px solid #1f2937;
+}
+
 .text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     max-width: 300px;
 }
 
