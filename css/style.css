@@ -115,7 +115,7 @@ ul {
 
 .section-two{
     display: flex;
-    gap: 55px;
+    gap: 60px;
     justify-content: center;
 }
 
@@ -127,4 +127,32 @@ ul {
     max-width: 300px;
 }
 
+/* Section 3 */
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgrey;
+    margin-top: 40px;
+    min-height: 400px;
+    gap: 0;
+}
+
+#quote{
+    display: flex;
+    align-items: center;
+    color:black;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#quote-person{
+    display: flex;
+    margin-left: 1400px;
+    font-size: 30px;
+    font-weight: bold;
+}
 
